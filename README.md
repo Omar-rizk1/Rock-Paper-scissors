@@ -31,4 +31,4 @@ gameplay:
 - You'll be asked to choose between Rock (0), Paper (1), or Scissors (2).
 - The computer will randomly choose its move, and the winner of each round will be announced.
 
-- have fun :)
+ # have fun :)
