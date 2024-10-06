@@ -70,25 +70,17 @@ while games_played < total_games :
 
   games_played += 1
 
-  #check if user has won 2 games
-
   if user_wins == 2 :
     print("You won 2 games, the match is over!")
     break
 
-
-  # Check if computer has won 2 games
   if computer_wins == 2:
     print("The computer won 2 games, the match is over!")
     break
 
-  # Add an extra game if 1 win and 1 draw
   if draws == 1 and (user_wins == 1 or computer_wins == 1) and games_played == 2:
      print("One game was a draw and one was a win. One more game will be played.")
      total_games += 1
-
-
-   # If user and computer have won 1 game, add a tiebreaker
 
   if user_wins == 1 and computer_wins == 1 and games_played == 2:
      print("It's a tie! One more game will be played as a tiebreaker.")
